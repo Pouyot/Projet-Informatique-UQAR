@@ -1,0 +1,16 @@
+ECG Database :
+	https://physionet.org/content/apnea-ecg/1.0.0/
+
+Studies and Methode:
+	- Sleep Apnea Detection from Single-Lead ECG Using Features Based on ECG-Derived Respiration (EDR) Signals (https://www.sciencedirect.com/science/article/abs/pii/S1959031818300794)
+	- Sleep apnea detection from a single-lead ECG signal with automatic feature-extraction through a modified LeNet-5 convolutional neural network (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6756143/)
+
+Tools : 
+	- ECG-Derived Respiration (https://physionet.org/content/edr/1.0.0/)
+ML :
+	- https://scikit-learn.org/stable/
+		classification : SVM, KNN, Random Forest
+Results :
+	- https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html?highlight=confusion%20matrix#sklearn.metrics.confusion_matrix
+	- https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.StratifiedKFold.html?highlight=stratified#sklearn.model_selection.StratifiedKFold
+	- https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html?highlight=score#sklearn.metrics.accuracy_score 
